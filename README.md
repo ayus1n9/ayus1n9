@@ -39,17 +39,6 @@
 └──────────────────────────────────────────────────────────────┘
 ```
 
-- 🔐 Focused on **Cybersecurity & Network Security**
-- 🌐 Strong interest in **Networking, Linux & Security Engineering**
-- 🐍 Building security automation with **Python**
-- 🧪 Exploring **Penetration Testing & Web Security**
-- 🦠 Exploring **Malware Analysis & Reverse Engineering**
-- 🔎 Interested in **Threat Intelligence & Digital Forensics**
-- 🚨 Exploring **Incident Response & Defensive Security**
-- ☁️ Expanding into **Cloud Security & Cloud Architecture**
-- 🧩 Learning through **CTFs, labs and practical projects**
-- 🛠️ Building security tools instead of only learning how to use them
-
 ---
 
 ## `02 // TECH STACK`
