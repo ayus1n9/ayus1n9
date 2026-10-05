@@ -1,0 +1,188 @@
+<svg width="900" height="430" viewBox="0 0 900 430"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .bg {
+      fill: #0d1117;
+    }
+
+    .box {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 2;
+    }
+
+    .title {
+      fill: #58a6ff;
+      font-family: monospace;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .text {
+      fill: #8b949e;
+      font-family: monospace;
+      font-size: 13px;
+    }
+
+    .layer {
+      fill: #c9d1d9;
+      font-family: monospace;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    .line {
+      stroke: #30363d;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .pulse {
+      stroke: #58a6ff;
+      stroke-width: 2;
+      stroke-dasharray: 6 8;
+      fill: none;
+      animation: flow 2s linear infinite;
+    }
+
+    .packet {
+      fill: #58a6ff;
+    }
+
+    .active {
+      fill: #3fb950;
+    }
+
+    @keyframes flow {
+      to {
+        stroke-dashoffset: -28;
+      }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="430" class="bg"/>
+
+  <!-- Terminal header -->
+  <text x="40" y="38" class="title">
+    $ ./security-mindset --analyze
+  </text>
+
+  <text x="40" y="62" class="text">
+    security is a process of understanding, attacking and defending
+  </text>
+
+  <!-- Main philosophy boxes -->
+
+  <rect x="45" y="95" width="175" height="82" rx="10" class="box"/>
+  <text x="70" y="125" class="title">01 UNDERSTAND</text>
+  <text x="70" y="150" class="text">the system</text>
+
+  <rect x="255" y="95" width="175" height="82" rx="10" class="box"/>
+  <text x="280" y="125" class="title">02 IDENTIFY</text>
+  <text x="280" y="150" class="text">attack surface</text>
+
+  <rect x="465" y="95" width="175" height="82" rx="10" class="box"/>
+  <text x="490" y="125" class="title">03 THINK</text>
+  <text x="490" y="150" class="text">like the attacker</text>
+
+  <rect x="675" y="95" width="175" height="82" rx="10" class="box"/>
+  <text x="700" y="125" class="title">04 BUILD</text>
+  <text x="700" y="150" class="text">better defenses</text>
+
+  <!-- Connections -->
+  <line x1="220" y1="136" x2="255" y2="136" class="line"/>
+  <line x1="430" y1="136" x2="465" y2="136" class="line"/>
+  <line x1="640" y1="136" x2="675" y2="136" class="line"/>
+
+  <!-- Animated flow -->
+  <line x1="220" y1="136" x2="255" y2="136" class="pulse"/>
+  <line x1="430" y1="136" x2="465" y2="136" class="pulse"/>
+  <line x1="640" y1="136" x2="675" y2="136" class="pulse"/>
+
+  <circle r="4" class="packet">
+    <animateMotion
+      dur="1.5s"
+      repeatCount="indefinite"
+      path="M 220,136 L 255,136"/>
+  </circle>
+
+  <circle r="4" class="packet">
+    <animateMotion
+      dur="1.5s"
+      begin="0.5s"
+      repeatCount="indefinite"
+      path="M 430,136 L 465,136"/>
+  </circle>
+
+  <circle r="4" class="packet">
+    <animateMotion
+      dur="1.5s"
+      begin="1s"
+      repeatCount="indefinite"
+      path="M 640,136 L 675,136"/>
+  </circle>
+
+  <!-- Feedback loop -->
+  <path d="M 762 177
+           C 762 215, 762 215, 762 225
+           L 762 240
+           C 762 260, 720 275, 680 275
+           L 220 275
+           C 180 275, 138 260, 138 240
+           L 138 205"
+        class="line"/>
+
+  <path d="M 762 177
+           C 762 215, 762 215, 762 225
+           L 762 240
+           C 762 260, 720 275, 680 275
+           L 220 275
+           C 180 275, 138 260, 138 240
+           L 138 205"
+        class="pulse"/>
+
+  <!-- Security surface -->
+  <rect x="120" y="315" width="660" height="75" rx="10" class="box"/>
+
+  <text x="145" y="342" class="title">
+    SECURITY SURFACE
+  </text>
+
+  <text x="145" y="367" class="layer">
+    PEOPLE
+  </text>
+
+  <text x="235" y="367" class="text">→</text>
+
+  <text x="260" y="367" class="layer">
+    SYSTEMS
+  </text>
+
+  <text x="350" y="367" class="text">→</text>
+
+  <text x="375" y="367" class="layer">
+    NETWORKS
+  </text>
+
+  <text x="475" y="367" class="text">→</text>
+
+  <text x="500" y="367" class="layer">
+    APPLICATIONS
+  </text>
+
+  <text x="630" y="367" class="text">→</text>
+
+  <text x="655" y="367" class="layer">
+    DATA
+  </text>
+
+  <!-- Status -->
+  <circle cx="45" cy="408" r="5" class="active"/>
+
+  <text x="58" y="413" class="text">
+    SECURITY MINDSET : ACTIVE
+  </text>
+
+</svg>
