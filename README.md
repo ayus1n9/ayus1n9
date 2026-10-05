@@ -18,7 +18,7 @@
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│  > initializing ayus1n9...                                  │
+│  > initializing ayus1n9...                                   │
 │                                                              │
 │  [✓] identity        : Ayush Singh                           │
 │  [✓] status          : final-year student                    │
@@ -86,13 +86,13 @@ keep_learning
 │   🔐 Cybersecurity                                         │
 │      └─ Security validation & experimentation              │
 │                                                            │
-│   ⚙️ Automation                                             │
+│   ⚙️ Automation                                            │
 │      └─ Scripts that eliminate boring repetitive work      │
 │                                                            │
 │   🌐 Web Development                                       │
 │      └─ React • Next.js • Node.js                          │
 │                                                            │
-│   🐍 Scripting                                              │
+│   🐍 Scripting                                             │
 │      └─ Python • Bash • JavaScript                         │
 │                                                            │
 ╰────────────────────────────────────────────────────────────╯
