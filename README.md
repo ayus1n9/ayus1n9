@@ -22,6 +22,12 @@
 
 </div>
 
+<div align="center">
+
+<img src="./assets/terminal.svg" width="700" alt="Security Terminal">
+
+</div>
+
 ---
 
 ## `01 // ABOUT ME`
