@@ -157,27 +157,15 @@ Subsystem → WSL2
 
 # `06 // SECURITY MINDSET`
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  Understand the system.                                     │
-│                                                             │
-│  Understand the attack surface.                             │
-│                                                             │
-│  Understand the attacker.                                   │
-│                                                             │
-│  Build better defenses.                                     │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img
+    src="./assets/security-mindset.svg"
+    alt="Animated Security Mindset"
+    width="850"
+  >
+</p>
 
-### 🔐 Security is not just about tools.
-
-It's about understanding:
-
-**People → Systems → Networks → Applications → Protocols → Data**
-
-and how they interact.
+> **Understand the system → Identify the attack surface → Think like the attacker → Build better defenses.**
 
 ---
 
@@ -191,9 +179,9 @@ and how they interact.
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/ayus1ngh)
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/ayus1n9)
-[![Mail](https://img.shields.io/badge/Mail-000000?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:singhayush0919@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/ayus1ngh)
+[![GitHub](https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/ayus1n9)
+[![Email](https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:singhayush0919@gmail.com)
 
 </div>
 
