@@ -416,7 +416,7 @@ My goal is to combine **software development + networking + cybersecurity** rath
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ayus1n9&bg_color=000000&color=00FF41&line=00FF41&point=FFFFFF&area=true&hide_border=true" width="95%"/>
+<img src="https://raw.githubusercontent.com/ayus1n9/ayus1n9/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
 
 </div>
 
