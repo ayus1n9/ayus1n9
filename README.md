@@ -14,7 +14,7 @@
 
 **Cybersecurity • Network Security • Offensive Security • Python • Linux • Cloud**
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=00FF41)](https://github.com/ayus1n9)
 [![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=3776AB)](https://www.python.org/)
 [![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=FCC624)](https://www.linux.org/)
 [![Cybersecurity](https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge&logo=hackthebox&logoColor=00FF41)](#)
@@ -43,10 +43,10 @@
 - 🌐 Strong interest in **Networking, Linux & Security Engineering**
 - 🐍 Building security automation with **Python**
 - 🧪 Exploring **Penetration Testing & Web Security**
-- 🦠 Learning **Malware Analysis & Reverse Engineering**
+- 🦠 Exploring **Malware Analysis & Reverse Engineering**
 - 🔎 Interested in **Threat Intelligence & Digital Forensics**
 - 🚨 Exploring **Incident Response & Defensive Security**
-- ☁️ Currently expanding into **Cloud Security & Cloud Architecture**
+- ☁️ Expanding into **Cloud Security & Cloud Architecture**
 - 🧩 Learning through **CTFs, labs and practical projects**
 - 🛠️ Building security tools instead of only learning how to use them
 
@@ -103,7 +103,7 @@ Nmap              Wireshark          tcpdump
 Burp Suite        Proxychains        Bettercap
 Snort             Trivy              Sysinternals
 Procmon           x64dbg             Ghidra
-Cutter            IDA               PEStudio
+Cutter            IDA                PEStudio
 PE-Bear           Cuckoo             REMnux
 FakeNet-NG        Regshot            Docker
 ```
@@ -120,200 +120,110 @@ Subsystems   → WSL2
 
 ---
 
-## `04 // SECURITY LAB`
+# `04 // FEATURED PROJECTS`
 
-```text
-                         ┌──────────────────┐
-                         │     SECURITY     │
-                         │       LAB        │
-                         └────────┬─────────┘
-                                  │
-             ┌────────────────────┼────────────────────┐
-             │                    │                    │
-             ▼                    ▼                    ▼
-        ┌─────────┐         ┌──────────┐         ┌─────────┐
-        │  Linux  │         │ Network  │         │ Malware │
-        │  Labs   │         │   Labs   │         │ Analysis│
-        └────┬────┘         └────┬─────┘         └────┬────┘
-             │                   │                    │
-             ▼                   ▼                    ▼
-          Kali /              Wireshark            REMnux
-          Ubuntu              Nmap                  Ghidra
-          WSL2                tcpdump               x64dbg
-                              DNS                   Procmon
-                              Firewalls             FakeNet
-```
+### 🔍 Network Topology Validator
 
-My lab environment is primarily used for:
+> Python-based security tool that analyzes network topology definitions and identifies insecure network designs.
 
-- 🔬 Security experimentation
-- 🌐 Network analysis
-- 🐧 Linux administration
-- 🧪 Malware-analysis practice
-- 🕵️ Web-security testing
-- 🧩 CTF challenges
-- 🔐 Secure coding experiments
+**Tech:** `Python` `Networking` `Graph Analysis` `Security` `Pytest`
 
 ---
 
-# `05 // FEATURED PROJECTS`
+### 📧 Email Header Analyzer
 
-## 🔍 Network Topology Validator
+> Security-focused tool for parsing email headers and extracting indicators useful for email security analysis.
 
-> **Security-oriented network topology analysis tool built with Python.**
-
-The project analyzes network topology definitions and identifies obvious security design problems.
-
-### Features
-
-- Network topology parsing
-- Security rule validation
-- Insecure topology detection
-- Security scoring
-- Secure/insecure topology comparison
-- Automated tests
-- Modular architecture
-
-**Stack**
-
-`Python` `Networking` `Graph Analysis` `Security` `Pytest`
+**Tech:** `Python` `Email Security` `Threat Intelligence`
 
 ---
 
-## 📧 Email Header Analyzer
+### 🔥 Firewall / Server Log Analyzer
 
-> **Security-focused email analysis tool.**
+> Security log analysis tool designed to parse logs and identify suspicious network activity and attack patterns.
 
-Designed to inspect email headers and extract useful information for security investigations.
-
-### Focus
-
-- Email header parsing
-- Authentication analysis
-- Suspicious indicators
-- Email security mechanisms
-- Threat investigation
-- Security automation
-
-**Stack**
-
-`Python` `Email Security` `Threat Intelligence`
+**Tech:** `Python` `Log Analysis` `Network Security`
 
 ---
 
-## 🔥 Firewall / Server Log Analyzer
+### 🚨 Incident Response Checklist Tool
 
-> **Security log analysis and suspicious activity detection.**
+> Practical security workflow tool for organizing and guiding incident identification, containment, investigation and recovery.
 
-A project focused on turning raw server/firewall logs into useful security information.
-
-### Focus
-
-- Log parsing
-- Suspicious activity detection
-- IP analysis
-- Attack-pattern identification
-- Security event investigation
-- Automated analysis
-
-**Stack**
-
-`Python` `Log Analysis` `Network Security`
+**Tech:** `Python` `Incident Response` `Cybersecurity`
 
 ---
 
-## 🚨 Incident Response Checklist Tool
+### 🔐 Blockchain Secure File Sharing
 
-> **A practical security workflow tool for incident response.**
+> Blockchain-based file-sharing concept focused on cryptographic integrity, tamper detection and secure document verification.
 
-Designed around the lifecycle of handling a security incident.
-
-```text
-IDENTIFY
-   ↓
-CONTAIN
-   ↓
-INVESTIGATE
-   ↓
-ERADICATE
-   ↓
-RECOVER
-   ↓
-LESSONS LEARNED
-```
-
-**Stack**
-
-`Python` `Incident Response` `Cybersecurity`
+**Tech:** `Ethereum` `Solidity` `Hardhat` `Cryptography` `Blockchain`
 
 ---
 
-## 🔐 Blockchain Secure File Sharing
+# `05 // OVER THE WIRE`
 
-> **Blockchain + Cryptography + Secure File Sharing**
+A collection of wargames covering Linux, networking, cryptography, reverse engineering, exploitation and other security concepts.
 
-A capstone project exploring blockchain-based integrity verification for secure file sharing.
+### 🧩 Wargames
 
-### Core Concepts
-
-- Cryptographic hashing
-- File integrity
-- Tamper detection
-- Blockchain verification
-- Smart contracts
-- Secure document sharing
-
-**Stack**
-
-`Ethereum` `Solidity` `Hardhat` `Cryptography` `Blockchain`
+1. [Bandit](https://overthewire.org/wargames/bandit)
+2. [Natas](https://overthewire.org/wargames/natas)
+3. [Leviathan](https://overthewire.org/wargames/leviathan)
+4. [Krypton](https://overthewire.org/wargames/krypton)
+5. [Narnia](https://overthewire.org/wargames/narnia)
+6. [Behemoth](https://overthewire.org/wargames/behemoth)
+7. [Utumno](https://overthewire.org/wargames/utumno)
+8. [Maze](https://overthewire.org/wargames/maze)
+9. [Vortex](https://overthewire.org/wargames/vortex)
+10. [Manpage](https://overthewire.org/wargames/manpage)
+11. [Drifter](https://overthewire.org/wargames/drifter)
+12. [FormulaOne](https://overthewire.org/wargames/formulaone)
 
 ---
 
-# `06 // CTF & SECURITY TRAINING`
+# `06 // SECURITY LABS & PRACTICE`
 
-## 🧩 OverTheWire
+A collection of online platforms and intentionally vulnerable environments useful for hands-on security practice.
 
-### Bandit
+### 🌐 Web Application Security
 
-**Completed through Level 33**
+- [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- [OWASP WebGoat](https://owasp.org/www-project-webgoat/)
+- [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/)
+- [DVWA](https://github.com/digininja/DVWA)
+- [bWAPP](http://www.itsecgames.com/)
+- [VulnHub](https://www.vulnhub.com/)
 
-Areas practiced:
+### 🖥️ General Cybersecurity / CTF
 
-```text
-Linux Fundamentals
-       ↓
-File Permissions
-       ↓
-SSH
-       ↓
-Shell Commands
-       ↓
-Processes
-       ↓
-Networking
-       ↓
-Compression
-       ↓
-Encoding / Cryptography
-       ↓
-Shell Scripting
-       ↓
-Privilege & System Concepts
-```
+- [picoCTF](https://picoctf.org/)
+- [OverTheWire](https://overthewire.org/wargames/)
+- [Root-Me](https://www.root-me.org/)
+- [Hack The Box](https://www.hackthebox.com/)
+- [TryHackMe](https://tryhackme.com/)
+- [CTFtime](https://ctftime.org/)
 
-### Natas
+### 🔬 Malware & Reverse Engineering
 
-Currently exploring web-security concepts through:
+- [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/)
+- [FLARE-VM](https://github.com/mandiant/flare-vm)
+- [REMnux](https://remnux.org/)
+- [Crackmes.one](https://crackmes.one/)
 
-- HTTP authentication
-- Web enumeration
-- File discovery
-- Request manipulation
-- Web application vulnerabilities
-- Linux/web server interaction
+### 🌐 Networking & Security Practice
 
-> My approach to CTFs is not just to obtain the flag —  
-> **understand why the technique works.**
+- [Cisco Networking Academy](https://www.netacad.com/)
+- [CyberDefenders](https://cyberdefenders.org/)
+- [Blue Team Labs Online](https://blueteamlabs.online/)
+- [LetsDefend](https://letsdefend.io/)
+
+### 🧪 Vulnerable Machines & Environments
+
+- [VulnHub](https://www.vulnhub.com/)
+- [Metasploitable](https://sourceforge.net/projects/metasploitable/)
+- [OWASP Broken Web Applications Project](https://sourceforge.net/projects/owaspbwa/)
 
 ---
 
@@ -426,7 +336,7 @@ My goal is to combine **software development + networking + cybersecurity** rath
 
 # `10 // CLOUD`
 
-☁️ Currently expanding my knowledge into cloud computing and security.
+☁️ Expanding my knowledge into cloud computing and security.
 
 ### Exploring
 
@@ -439,22 +349,6 @@ My goal is to combine **software development + networking + cybersecurity** rath
 - Security Architecture
 - Google Cloud
 - Cloud-native security
-
-### Long-Term Direction
-
-```text
-Networking
-     +
-Linux
-     +
-Programming
-     +
-Cybersecurity
-     +
-Cloud
-     ↓
-Security Engineering
-```
 
 ---
 
@@ -493,46 +387,16 @@ Security Engineering
 [████████████████████░░] Cybersecurity
 [██████████████████░░░░] Networking
 [█████████████████░░░░░] Python / Automation
-[███████████████░░░░░░░] Linux
-[██████████████░░░░░░░░] Web Security
-[████████████░░░░░░░░░░] Malware Analysis
-[███████████░░░░░░░░░░░] Cloud Security
-[█████████░░░░░░░░░░░░░] Reverse Engineering
+[████████████████░░░░░░] Linux
+[███████████████░░░░░░░] Web Security
+[██████████████░░░░░░░░] Malware Analysis
+[████████████░░░░░░░░░░] Cloud Security
+[███████████░░░░░░░░░░░] Reverse Engineering
 ```
 
 ---
 
-# `13 // ROADMAP`
-
-### 🎯 Short Term
-
-- [ ] Strengthen advanced Python
-- [ ] Improve network-security skills
-- [ ] Build more security automation tools
-- [ ] Complete more CTF challenges
-- [ ] Improve Linux administration
-- [ ] Deepen web-security knowledge
-
-### 🔬 Medium Term
-
-- [ ] Advanced malware analysis
-- [ ] Reverse engineering
-- [ ] Digital forensics
-- [ ] Incident response
-- [ ] Threat intelligence
-- [ ] Cloud security
-
-### ☁️ Long Term
-
-- [ ] Become a strong Security Engineer
-- [ ] Develop deep Cloud Security expertise
-- [ ] Build production-grade security tools
-- [ ] Contribute to open-source security projects
-- [ ] Research real-world security problems
-
----
-
-# `14 // GITHUB`
+# `13 // GITHUB`
 
 <div align="center">
 
@@ -548,7 +412,7 @@ Security Engineering
 
 ---
 
-# `15 // CONTRIBUTIONS`
+# `14 // CONTRIBUTIONS`
 
 <div align="center">
 
@@ -558,7 +422,7 @@ Security Engineering
 
 ---
 
-# `16 // SECURITY MINDSET`
+# `15 // SECURITY MINDSET`
 
 ```text
 ┌─────────────────────────────────────────────────────────────┐
@@ -584,7 +448,7 @@ and how they interact.
 
 ---
 
-# `17 // CONNECT`
+# `16 // CONNECT`
 
 <div align="center">
 
@@ -596,7 +460,6 @@ and how they interact.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/ayus1ngh)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/ayus1n9)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:singhayush0919@gmail.com)
 
 </div>
 
