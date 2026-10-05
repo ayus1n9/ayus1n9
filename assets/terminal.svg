@@ -47,21 +47,21 @@
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
-    network-security
+    cloud-security
   </text>
 
   <text x="220" y="158"
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
-    penetration-testing
+    devsecops
   </text>
 
-  <text x="450" y="158"
+  <text x="350" y="158"
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
-    malware-analysis
+    penetration-testing
   </text>
 
   <text x="28" y="184"
@@ -82,7 +82,14 @@
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
-    cloud-security
+    network-security
+  </text>
+     
+  <text x="425" y="184"
+        font-family="monospace"
+        font-size="15"
+        fill="#ffffff">
+    malware-analysis
   </text>
 
   <text x="28" y="222"
