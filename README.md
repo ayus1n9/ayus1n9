@@ -30,7 +30,7 @@
 
 ---
 
-## `01 // ABOUT ME`
+# `01 // ABOUT ME`
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
@@ -47,53 +47,65 @@
 
 ---
 
-## `02 // TECH STACK`
+# `02 // TECH STACK`
 
 ### 🐍 Programming & Scripting
 
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=3776AB)
-![Bash](https://img.shields.io/badge/Bash-000000?style=flat-square&logo=gnubash&logoColor=4EAA25)
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Solidity](https://img.shields.io/badge/Solidity-000000?style=flat-square&logo=solidity&logoColor=363636)
-![SQL](https://img.shields.io/badge/SQL-000000?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ### 🌐 Networking
 
 ```text
-TCP/IP       IPv4 / IPv6       DNS
-DHCP         HTTP/HTTPS        SSH
-FTP          SMTP/POP/IMAP     Routing
-Firewalls    Proxies           VPN
-Packet Analysis              Network Troubleshooting
+TCP/IP        IPv4 / IPv6        DNS
+DHCP          HTTP/HTTPS         SSH
+FTP           SMTP/POP/IMAP      Routing
+Firewalls     Proxies            VPN
 ```
 
 ### 🛡️ Security Tools
 
-![Nmap](https://img.shields.io/badge/Nmap-000000?style=flat-square&logoColor=00FF41)
-![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=flat-square&logo=wireshark&logoColor=1679A7)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=flat-square&logo=burpsuite&logoColor=FF6633)
-![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=flat-square&logoColor=FF0000)
-![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=2496ED)
-![Git](https://img.shields.io/badge/Git-000000?style=flat-square&logo=git&logoColor=F05032)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square)
+![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ```text
-Nmap              Wireshark          tcpdump
-Burp Suite        Proxychains        Bettercap
-Snort             Trivy              Sysinternals
-Procmon           x64dbg             Ghidra
-Cutter            IDA                PEStudio
-PE-Bear           Cuckoo             REMnux
-FakeNet-NG        Regshot            Docker
+[ RECON / NETWORK ]
+Nmap • Wireshark • tcpdump • Proxychains • Bettercap
+
+[ WEB / APPLICATION ]
+Burp Suite
+
+[ MALWARE / REVERSE ENGINEERING ]
+Ghidra • Cutter • IDA • x64dbg
+PEStudio • PE-Bear • Cuckoo • REMnux
+FakeNet-NG • Regshot
+
+[ DEFENSIVE / SECURITY ]
+Snort • Trivy • Sysinternals • Procmon
+
+[ CONTAINERS / DEVELOPMENT ]
+Docker • Git
 ```
 
 ### 🐧 Platforms & Environments
 
 ```text
-Linux        → Ubuntu • Kali Linux • REMnux • BlackArch
-Windows      → Windows Security & Administration
+Linux → Ubuntu • Kali Linux • REMnux • BlackArch
+
+Windows → Security & Administration
+
 Virtualization → VirtualBox • VMware
-Containers   → Docker
-Subsystems   → WSL2
+
+Containers → Docker
+
+Subsystem → WSL2
 ```
 
 ---
@@ -181,6 +193,7 @@ and how they interact.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/ayus1ngh)
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/ayus1n9)
+[![Mail](https://img.shields.io/badge/Mail-000000?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:singhayush0919@gmail.com)
 
 </div>
 
@@ -202,3 +215,4 @@ MISSION: UNDERSTAND • BUILD • BREAK • SECURE
 **⚡ Keep learning. Keep building. Keep questioning.**
 
 </div>
+
