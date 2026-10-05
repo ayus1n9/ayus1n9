@@ -54,8 +54,42 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnubash&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+### 🌐 Web Development
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+
+### ⚙️ APIs & Backend
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat-square&logo=swagger&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+### ☁️ Cloud & Infrastructure
+
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+
+### 🔄 DevOps & Automation
+
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ### 🌐 Networking
 
@@ -65,33 +99,77 @@ DHCP          HTTP/HTTPS         SSH
 FTP           SMTP/POP/IMAP      Routing
 Firewalls     Proxies            VPN
 ```
-
 ### 🛡️ Security Tools
 
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square)
+![Nessus](https://img.shields.io/badge/Nessus-00A88F?style=flat-square)
+![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-00549E?style=flat-square)
 ![Ghidra](https://img.shields.io/badge/Ghidra-000000?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=65A637)
+![Snort](https://img.shields.io/badge/Snort-F15A24?style=flat-square)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square)
 
 ```text
-[ RECON / NETWORK ]
-Nmap • Wireshark • tcpdump • Proxychains • Bettercap
+[ RECON / NETWORK SECURITY ]
+Nmap • Wireshark • tcpdump • Netcat
+Masscan • Amass • RustScan
+Proxychains • Bettercap • NetCut
+Aircrack-ng
 
-[ WEB / APPLICATION ]
-Burp Suite
+[ WEB / API / APPLICATION SECURITY ]
+Burp Suite • OWASP ZAP
+Nuclei • Nikto • SQLMap
+Metasploit • ffuf
+
+[ VULNERABILITY MANAGEMENT ]
+Nessus • OpenVAS / Greenbone
+Qualys • Nuclei • Trivy
+Lynis
+
+[ IDENTITY / WINDOWS SECURITY ]
+BloodHound • Mimikatz
+Impacket • CrackMapExec
+Responder • PowerShell
+Active Directory Security
+
+[ PASSWORD / CREDENTIAL SECURITY ]
+Hashcat • John the Ripper
+Hydra • SecLists
 
 [ MALWARE / REVERSE ENGINEERING ]
-Ghidra • Cutter • IDA • x64dbg
-PEStudio • PE-Bear • Cuckoo • REMnux
+Ghidra • Cutter • IDA
+x64dbg • GDB
+PEStudio • PE-Bear
+Cuckoo • REMnux
 FakeNet-NG • Regshot
 
-[ DEFENSIVE / SECURITY ]
-Snort • Trivy • Sysinternals • Procmon
+[ FORENSICS / INCIDENT RESPONSE ]
+Autopsy • Volatility
+Sysinternals • Procmon
+Velociraptor
 
-[ CONTAINERS / DEVELOPMENT ]
-Docker • Git
+[ SIEM / DETECTION / SOC ]
+Splunk • Wazuh • ELK Stack
+Suricata • Snort • Zeek
+Microsoft Sentinel
+
+[ CLOUD SECURITY ]
+Prowler • ScoutSuite
+AWS CloudTrail • AWS GuardDuty
+Microsoft Defender for Cloud
+Google Security Command Center
+
+[ THREAT INTELLIGENCE ]
+MITRE ATT&CK • Maltego
+MISP • YARA
+VirusTotal
+
+[ CONTAINER / DEVSECOPS ]
+Trivy • kube-bench
+Docker Security • Kubernetes Security
 ```
 
 ### 🐧 Platforms & Environments
@@ -110,22 +188,7 @@ Subsystem → WSL2
 
 ---
 
-# `03 // CURRENTLY LEARNING`
-
-```text
-[████████████████████░░] Cybersecurity
-[██████████████████░░░░] Networking
-[█████████████████░░░░░] Python / Automation
-[████████████████░░░░░░] Linux
-[███████████████░░░░░░░] Web Security
-[██████████████░░░░░░░░] Malware Analysis
-[████████████░░░░░░░░░░] Cloud Security
-[███████████░░░░░░░░░░░] Reverse Engineering
-```
-
----
-
-# `04 // GITHUB`
+# `03 // GITHUB`
 
 <div align="center">
 
@@ -141,7 +204,7 @@ Subsystem → WSL2
 
 ---
 
-# `05 // CONTRIBUTIONS`
+# `04 // CONTRIBUTIONS`
 
 <div align="center">
 
@@ -155,7 +218,7 @@ Subsystem → WSL2
 
 ---
 
-# `06 // SECURITY MINDSET`
+# `05 // SECURITY MINDSET`
 
 <p align="center">
   <img
@@ -169,7 +232,7 @@ Subsystem → WSL2
 
 ---
 
-# `07 // CONNECT`
+# `06 // CONNECT`
 
 <div align="center">
 
