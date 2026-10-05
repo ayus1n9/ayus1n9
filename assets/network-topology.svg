@@ -1,0 +1,190 @@
+<svg width="900" height="360" viewBox="0 0 900 360"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="900" height="360" fill="#0d1117"/>
+
+  <style>
+    .box {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 10;
+    }
+
+    .title {
+      fill: #58a6ff;
+      font-family: monospace;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .text {
+      fill: #8b949e;
+      font-family: monospace;
+      font-size: 13px;
+    }
+
+    .line {
+      stroke: #30363d;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .packet {
+      fill: #58a6ff;
+    }
+
+    .pulse {
+      fill: none;
+      stroke: #58a6ff;
+      stroke-width: 2;
+      stroke-dasharray: 6 8;
+      animation: flow 2s linear infinite;
+    }
+
+    @keyframes flow {
+      to {
+        stroke-dashoffset: -28;
+      }
+    }
+
+    .status {
+      fill: #3fb950;
+      font-family: monospace;
+      font-size: 12px;
+    }
+  </style>
+
+  <!-- Header -->
+  <text x="40" y="35" class="title">
+    $ ./network-topology --visualize
+  </text>
+
+  <text x="40" y="58" class="text">
+    secure communication path
+  </text>
+
+  <!-- Client -->
+  <rect x="40" y="130" width="150" height="100" class="box"/>
+
+  <text x="65" y="160" class="title">
+    CLIENT
+  </text>
+
+  <text x="65" y="185" class="text">
+    endpoint
+  </text>
+
+  <text x="65" y="207" class="text">
+    192.168.1.x
+  </text>
+
+  <circle cx="170" cy="155" r="5" fill="#3fb950"/>
+
+  <!-- Network -->
+  <rect x="270" y="105" width="180" height="150" class="box"/>
+
+  <text x="300" y="135" class="title">
+    NETWORK
+  </text>
+
+  <text x="300" y="162" class="text">
+    TCP/IP
+  </text>
+
+  <text x="300" y="184" class="text">
+    DNS
+  </text>
+
+  <text x="300" y="206" class="text">
+    ROUTING
+  </text>
+
+  <text x="300" y="228" class="text">
+    VPN / PROXY
+  </text>
+
+  <!-- Security -->
+  <rect x="530" y="105" width="180" height="150" class="box"/>
+
+  <text x="560" y="135" class="title">
+    SECURITY
+  </text>
+
+  <text x="560" y="162" class="text">
+    FIREWALL
+  </text>
+
+  <text x="560" y="184" class="text">
+    IDS / IPS
+  </text>
+
+  <text x="560" y="206" class="text">
+    MONITORING
+  </text>
+
+  <text x="560" y="228" class="text">
+    ANALYSIS
+  </text>
+
+  <!-- Server -->
+  <rect x="750" y="130" width="110" height="100" class="box"/>
+
+  <text x="770" y="160" class="title">
+    SERVER
+  </text>
+
+  <text x="770" y="185" class="text">
+    service
+  </text>
+
+  <text x="770" y="207" class="text">
+    protected
+  </text>
+
+  <circle cx="840" cy="155" r="5" fill="#3fb950"/>
+
+  <!-- Connections -->
+  <line x1="190" y1="180" x2="270" y2="180" class="line"/>
+  <line x1="450" y1="180" x2="530" y2="180" class="line"/>
+  <line x1="710" y1="180" x2="750" y2="180" class="line"/>
+
+  <!-- Animated packet paths -->
+  <line x1="190" y1="180" x2="270" y2="180" class="pulse"/>
+  <line x1="450" y1="180" x2="530" y2="180" class="pulse"/>
+  <line x1="710" y1="180" x2="750" y2="180" class="pulse"/>
+
+  <!-- Animated packets -->
+  <circle r="5" class="packet">
+    <animateMotion
+      dur="2s"
+      repeatCount="indefinite"
+      path="M 190,180 L 270,180"/>
+  </circle>
+
+  <circle r="5" class="packet">
+    <animateMotion
+      dur="2s"
+      begin="0.6s"
+      repeatCount="indefinite"
+      path="M 450,180 L 530,180"/>
+  </circle>
+
+  <circle r="5" class="packet">
+    <animateMotion
+      dur="2s"
+      begin="1.2s"
+      repeatCount="indefinite"
+      path="M 710,180 L 750,180"/>
+  </circle>
+
+  <!-- Footer -->
+  <text x="40" y="315" class="status">
+    ● CONNECTION SECURE
+  </text>
+
+  <text x="650" y="315" class="text">
+    packets → encrypted → inspected
+  </text>
+
+</svg>
