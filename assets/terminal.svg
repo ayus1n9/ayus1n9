@@ -68,10 +68,10 @@
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
-    python
+    ai-security
   </text>
 
-  <text x="140" y="184"
+  <text x="160" y="184"
         font-family="monospace"
         font-size="15"
         fill="#ffffff">
